@@ -5,22 +5,18 @@ const database = {
       nome: "Ciência da Computação",
       turno: 0,
       id_campus: 1,
-    },
-    {
-      id: 1101,
-      nome: "Ciência da Computação",
-      turno: 1,
-      id_campus: 1,
+      coordenadores:  [
+        "Gian Carlo",
+        "Braulio"
+      ],
     },
   ],
   ccrs: [
     {
       id: "GEX613",
       nome: "Programação II",
-    },
-    {
-      id: "GEX003",
-      nome: "Algoritmos e Programação",
+      semestre: 1,
+      horario: ""
     },
   ],
 };
