@@ -197,3 +197,9 @@ tr.horario-row {
 td {
   font-size: 14px;
 }
+
+.divider{
+  border-bottom: 1px solid #a0a2a5;
+  width: 100%;
+  margin-bottom: 1rem;
+}

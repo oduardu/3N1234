@@ -103,3 +103,13 @@ app.delete('/ccrs/:id', (req, res) => {
     res.status(404).send('CCR não encontrado')
   }
 })
+
+app.get('/curso-ccrs/:id', (req, res) => {
+  const { id } = req.params
+  const ccrs = database.ccrs.filter(ccr => ccr.curso_id === parseInt(id))
+  if (ccrs.length > 0) {
+    res.json(ccrs)
+  } else {
+    res.json([])
+  }
+})
