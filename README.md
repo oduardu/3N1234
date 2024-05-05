@@ -11,5 +11,12 @@ Trabalhos relacionados a disciplina de PROGRAMAÇÃO II
 ~/server
 ```
 
+#### How to use:
+
+> Remove 'example.' from the filename and change to your user data info
+```
+example.secret-keys.js
+```
+
 ### Author
 Eduardo Pazzini Zancanaro - 2221101031
